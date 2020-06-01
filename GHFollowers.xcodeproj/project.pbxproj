@@ -27,6 +27,7 @@
 		DBA7C5E8247195F200799F97 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA7C5E7247195F200799F97 /* GFError.swift */; };
 		DBA7C5EB24739D4B00799F97 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA7C5EA24739D4B00799F97 /* FollowerCell.swift */; };
 		DBA7C5ED24739E5600799F97 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA7C5EC24739E5600799F97 /* GFAvatarImageView.swift */; };
+		DBAD1F67248477280004036E /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD1F66248477280004036E /* GFEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		DBA7C5E7247195F200799F97 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		DBA7C5EA24739D4B00799F97 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		DBA7C5EC24739E5600799F97 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		DBAD1F66248477280004036E /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,13 +111,13 @@
 		DBA7C5D9247167F100799F97 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				DBAD1F652484766C0004036E /* Labels */,
+				DBAD1F64248476490004036E /* ViewControllers */,
+				DBAD1F63248476420004036E /* ImageViews */,
+				DBAD1F62248476390004036E /* Textfields */,
+				DBAD1F612484762A0004036E /* Buttons */,
+				DBAD1F60248476210004036E /* Views */,
 				DBA7C5E924739D0E00799F97 /* Cells */,
-				DBA7C5D0247155B700799F97 /* GFTitleLabel.swift */,
-				DBA7C5CA2470AC0600799F97 /* GFButton.swift */,
-				DBA7C5CC2470B04400799F97 /* GFTextField.swift */,
-				DBA7C5D22471575C00799F97 /* GFBodyLabel.swift */,
-				DBA7C5D42471581600799F97 /* GFAlertVC.swift */,
-				DBA7C5EC24739E5600799F97 /* GFAvatarImageView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -171,6 +173,55 @@
 				DBA7C5EA24739D4B00799F97 /* FollowerCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		DBAD1F60248476210004036E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBAD1F66248477280004036E /* GFEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBAD1F612484762A0004036E /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				DBA7C5CA2470AC0600799F97 /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		DBAD1F62248476390004036E /* Textfields */ = {
+			isa = PBXGroup;
+			children = (
+				DBA7C5CC2470B04400799F97 /* GFTextField.swift */,
+			);
+			path = Textfields;
+			sourceTree = "<group>";
+		};
+		DBAD1F63248476420004036E /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				DBA7C5EC24739E5600799F97 /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		DBAD1F64248476490004036E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DBA7C5D42471581600799F97 /* GFAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DBAD1F652484766C0004036E /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				DBA7C5D22471575C00799F97 /* GFBodyLabel.swift */,
+				DBA7C5D0247155B700799F97 /* GFTitleLabel.swift */,
+			);
+			path = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +308,7 @@
 				DBA7C5D32471575C00799F97 /* GFBodyLabel.swift in Sources */,
 				DBA7C5E0247182F800799F97 /* Follower.swift in Sources */,
 				DBA7C5D1247155B700799F97 /* GFTitleLabel.swift in Sources */,
+				DBAD1F67248477280004036E /* GFEmptyStateView.swift in Sources */,
 				DBA7C5E52471886900799F97 /* NetworkManager.swift in Sources */,
 				DB800922246D3960006FB439 /* SearchVC.swift in Sources */,
 				DB80090E246D37CD006FB439 /* AppDelegate.swift in Sources */,
