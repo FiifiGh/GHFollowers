@@ -10,6 +10,7 @@
 		DB10992B248A0768000E2CB7 /* GFSecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB10992A248A0768000E2CB7 /* GFSecondaryLabel.swift */; };
 		DB10992D248A08BD000E2CB7 /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB10992C248A08BD000E2CB7 /* GFUserInfoHeaderVC.swift */; };
 		DB10992F248A10A2000E2CB7 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB10992E248A10A2000E2CB7 /* SFSymbols.swift */; };
+		DB339082248F14410028CF9C /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB339081248F14410028CF9C /* PersistenceManager.swift */; };
 		DB3D4118248BCC8B00B20695 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3D4117248BCC8B00B20695 /* String+Ext.swift */; };
 		DB3D411A248BCE1F00B20695 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3D4119248BCE1F00B20695 /* Date+Ext.swift */; };
 		DB663141248BA6F80072B15B /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB663140248BA6F80072B15B /* GFItemInfoView.swift */; };
@@ -44,6 +45,7 @@
 		DB10992A248A0768000E2CB7 /* GFSecondaryLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryLabel.swift; sourceTree = "<group>"; };
 		DB10992C248A08BD000E2CB7 /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
 		DB10992E248A10A2000E2CB7 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
+		DB339081248F14410028CF9C /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		DB3D4117248BCC8B00B20695 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		DB3D4119248BCE1F00B20695 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		DB663140248BA6F80072B15B /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				DBA7C5E42471886900799F97 /* NetworkManager.swift */,
+				DB339081248F14410028CF9C /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				DBA7C5D1247155B700799F97 /* GFTitleLabel.swift in Sources */,
 				DBAD1F67248477280004036E /* GFEmptyStateView.swift in Sources */,
 				DBA7C5E52471886900799F97 /* NetworkManager.swift in Sources */,
+				DB339082248F14410028CF9C /* PersistenceManager.swift in Sources */,
 				DB800922246D3960006FB439 /* SearchVC.swift in Sources */,
 				DB3D4118248BCC8B00B20695 /* String+Ext.swift in Sources */,
 				DB3D411A248BCE1F00B20695 /* Date+Ext.swift in Sources */,
